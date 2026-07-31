@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gwyn: Babysitting, Tutoring &amp; Dog Walking in Charlestown</title>
+<meta name="description" content="Gwyn is a Noble &amp; Greenough senior and Red Cross certified sitter in Charlestown. Tutoring in math, science, and writing, executive-function coaching, test prep, babysitting, and dog walking.">
+<meta property="og:title" content="Gwyn: Babysitting, Tutoring &amp; Dog Walking in Charlestown">
+<meta property="og:description" content="Nobles senior, Red Cross certified sitter, local kid. Math &amp; science tutoring, writing help, executive-function coaching, test prep, date-night babysitting, and dog walks.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://cleverzebra.github.io/gwyn-babysitting-tutoring/">
+<meta property="og:image" content="https://cleverzebra.github.io/gwyn-babysitting-tutoring/gwyn.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%23E76F51'/%3E%3Ctext x='50' y='68' font-size='52' text-anchor='middle' fill='%23FBF6EC' font-family='Georgia'%3EG%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#FBF6EC; --card:#FFFDF8; --ink:#26415E; --navy:#1D3050;
+    --coral:#E76F51; --marigold:#F4A261; --teal:#2A9D8F;
+    --shadow:0 6px 24px rgba(29,48,80,.08);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:'Nunito',-apple-system,'Segoe UI',sans-serif;background:var(--cream);color:var(--ink);line-height:1.6}
+  h1,h2,h3{font-family:'Fraunces',Georgia,serif;color:var(--navy);line-height:1.15}
+  a{color:var(--coral)}
+  .wrap{max-width:960px;margin:0 auto;padding:0 20px}
+
+  nav{position:sticky;top:0;z-index:10;background:rgba(251,246,236,.92);backdrop-filter:blur(8px);border-bottom:1px solid rgba(29,48,80,.08)}
+  .navrow{display:flex;align-items:center;justify-content:space-between;padding:12px 20px;max-width:960px;margin:0 auto;flex-wrap:wrap;gap:8px}
+  .wordmark{font-family:'Fraunces',Georgia,serif;font-weight:700;font-size:1.35rem;color:var(--navy);text-decoration:none}
+  .wordmark span{color:var(--coral)}
+  .navlinks{display:flex;gap:18px;flex-wrap:wrap}
+  .navlinks a{color:var(--ink);text-decoration:none;font-weight:700;font-size:.95rem}
+  .navlinks a:hover{color:var(--coral)}
+
+  header.hero{padding:56px 0 36px}
+  .hero-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:36px;align-items:center}
+  .eyebrow{display:inline-block;background:var(--navy);color:var(--cream);font-weight:800;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;padding:6px 14px;border-radius:999px;margin-bottom:18px}
+  .hero h1{font-size:clamp(2.4rem,6vw,3.6rem);margin-bottom:14px}
+  .hero p.lede{font-size:1.15rem;max-width:34em}
+  .cta-row{margin-top:26px;display:flex;gap:14px;flex-wrap:wrap}
+  .btn{display:inline-block;text-decoration:none;font-weight:800;padding:13px 26px;border-radius:999px;transition:transform .15s}
+  .btn:hover{transform:translateY(-2px)}
+  .btn-primary{background:var(--coral);color:#fff}
+  .btn-ghost{border:2.5px solid var(--navy);color:var(--navy)}
+
+  .photo{position:relative;width:min(270px,70vw);aspect-ratio:1;margin:0 auto;border-radius:50%;background:linear-gradient(135deg,var(--marigold),var(--coral));box-shadow:var(--shadow);outline:6px solid var(--card);outline-offset:-2px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+  .photo .monogram{font-family:'Fraunces',Georgia,serif;font-size:7rem;color:rgba(255,253,248,.9);font-weight:700}
+  .photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+
+  .badges{display:flex;flex-wrap:wrap;gap:12px;padding:8px 0 8px}
+  .badge{background:var(--card);border:1.5px solid rgba(29,48,80,.12);border-radius:999px;padding:9px 18px;font-weight:700;font-size:.95rem;box-shadow:var(--shadow)}
+
+  section{padding:44px 0}
+  h2{font-size:clamp(1.7rem,4vw,2.3rem);margin-bottom:8px}
+  .kicker{color:var(--teal);font-weight:800;text-transform:uppercase;letter-spacing:.12em;font-size:.8rem;margin-bottom:6px}
+  .section-note{max-width:40em;margin-bottom:26px}
+
+  .cards{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  .card{background:var(--card);border-radius:22px;padding:28px;box-shadow:var(--shadow);border-top:6px solid var(--coral)}
+  .card.wide{grid-column:1 / -1;border-top-color:var(--teal)}
+  .card.dog{border-top-color:var(--marigold)}
+  .card h3{font-size:1.4rem;margin-bottom:4px}
+  .card .tag{font-weight:800;color:var(--coral);font-size:.95rem;margin-bottom:14px}
+  .card.wide .tag{color:var(--teal)}
+  .card.dog .tag{color:#c77b28}
+  .card ul{list-style:none;margin-top:10px}
+  .card li{padding:7px 0 7px 30px;position:relative}
+  .card li::before{content:"✓";position:absolute;left:2px;top:7px;font-weight:800;color:var(--teal)}
+  .callout{margin-top:16px;background:rgba(42,157,143,.1);border-left:4px solid var(--teal);border-radius:0 12px 12px 0;padding:12px 16px;font-weight:600}
+
+  .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+  .chip{background:var(--card);border:1.5px solid rgba(29,48,80,.12);border-radius:999px;padding:8px 16px;font-weight:700;font-size:.92rem}
+
+  .avail{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;margin-top:8px}
+  .slot{background:var(--card);border-radius:18px;padding:20px;box-shadow:var(--shadow)}
+  .slot .when{font-weight:800;color:var(--navy);margin-bottom:4px;font-size:1.02rem}
+  .slot .how{font-size:.95rem}
+  .avail-note{margin-top:18px;font-style:italic;max-width:40em}
+
+  .contact-card{background:var(--navy);color:var(--cream);border-radius:26px;padding:40px 32px;text-align:center;box-shadow:var(--shadow)}
+  .contact-card h2{color:var(--cream)}
+  .contact-card p{max-width:36em;margin:10px auto 0}
+  .contact-card .btn-primary{margin-top:22px;font-size:1.05rem}
+  .contact-card .fine{font-size:.9rem;opacity:.85;margin-top:18px}
+
+  footer{margin-top:30px}
+  footer .skyline{display:block;width:100%;height:70px}
+  footer .foot-text{background:var(--navy);color:var(--cream);text-align:center;padding:14px 20px 22px;font-size:.9rem}
+  footer .foot-text a{color:var(--marigold)}
+
+  @media (max-width:720px){
+    .hero-grid{grid-template-columns:1fr;text-align:center}
+    .hero-grid .photo{order:-1}
+    .hero p.lede{margin:0 auto}
+    .cta-row{justify-content:center}
+    .badges{justify-content:center}
+    .cards{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="navrow">
+    <a class="wordmark" href="#top">Gwyn<span>.</span></a>
+    <div class="navlinks">
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#availability">Availability</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">Charlestown &middot; Local &middot; References on request</span>
+      <h1>Hi, I'm Gwyn!</h1>
+      <p class="lede">Babysitting, tutoring, and dog walking, right here in the neighborhood. I'm a senior at Noble &amp; Greenough, a Red Cross certified sitter, and a Boston kid from the start (Eliot Innovation School for K&ndash;1). I tutor math, science, and writing, I'm the kind of sitter who actually gets on the floor and plays, and I would love to walk your dog.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#contact">Get in touch</a>
+        <a class="btn btn-ghost" href="#services">What I offer</a>
+      </div>
+    </div>
+    <div class="photo">
+      <span class="monogram">G</span>
+      <img src="gwyn.jpg" alt="Gwyn" onerror="this.remove()">
+    </div>
+  </div>
+</header>
+
+<div class="wrap badges">
+  <span class="badge">&#10010; Red Cross Babysitting Certified</span>
+  <span class="badge">&#127891; Senior at Noble &amp; Greenough</span>
+  <span class="badge">&#128205; Charlestown local</span>
+  <span class="badge">&#128062; Loves dogs &amp; all pets</span>
+</div>
+
+<section id="services">
+  <div class="wrap">
+    <div class="kicker">Services</div>
+    <h2>What I offer</h2>
+    <p class="section-note">Three ways I can help your family. Mix and match: plenty of families book a tutoring session that rolls into a dog walk.</p>
+    <div class="cards">
+
+      <div class="card wide">
+        <h3>&#128218; Tutoring &amp; Academic Coaching</h3>
+        <div class="tag">Elementary through high school</div>
+        <p>I've tutored lower, middle, and high school students in math and science, and I love the moment something finally clicks.</p>
+        <ul>
+          <li><strong>Math &amp; science:</strong> homework help, concept review, and getting ahead</li>
+          <li><strong>Writing:</strong> brainstorming, drafts, and revision that keeps the student's own voice</li>
+          <li><strong>Organization &amp; executive function:</strong> planners, schedules, and study systems that actually stick</li>
+          <li><strong>Test prep:</strong> study plans and practice that build real confidence</li>
+          <li><strong>School applications:</strong> essays, timelines, and interview practice (I'm in the middle of the college process myself, so it's fresh)</li>
+          <li><strong>Between sessions:</strong> quick check-ins by email or Zoom whenever questions come up</li>
+        </ul>
+        <div class="callout">&#128156; Neurodivergent kids welcome! I'm happy to work on strategies, routines, and prep that fit how each student learns best.</div>
+      </div>
+
+      <div class="card">
+        <h3>&#129528; Babysitting</h3>
+        <div class="tag">Your date night is covered</div>
+        <ul>
+          <li>Red Cross Babysitting course completed, with certification</li>
+          <li>Active engagement: games, books, crafts, and playground trips, not a night of screens</li>
+          <li>Homework help built in on school nights</li>
+          <li>Totally comfortable in homes with dogs, cats, and other pets</li>
+        </ul>
+      </div>
+
+      <div class="card dog">
+        <h3>&#128021; Dog Walking</h3>
+        <div class="tag">Individualized attention &amp; real exercise</div>
+        <ul>
+          <li>One pup at a time, so your dog gets my full attention</li>
+          <li>Available whenever I'm not at school: weekends, breaks, and summer days</li>
+          <li>Happy to send a photo and a quick note from every walk</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="kicker">About</div>
+    <h2>A little about me</h2>
+    <p class="section-note">When I'm not sitting or tutoring, you'll find me reading, playing board and card games, on the soccer or lacrosse field, learning guitar, or painting (I'm taking AP Painting this year and I'm excited about it). Current side quests: pickleball and hackysack. Yes, I will bring the games.</p>
+    <div class="chips">
+      <span class="chip">&#128214; Reading</span>
+      <span class="chip">&#127922; Board &amp; card games</span>
+      <span class="chip">&#9917; Soccer</span>
+      <span class="chip">&#129356; Lacrosse</span>
+      <span class="chip">&#127934; Pickleball (learning)</span>
+      <span class="chip">&#129520; Hackysack (learning)</span>
+      <span class="chip">&#127928; Guitar (learning)</span>
+      <span class="chip">&#127912; AP Painting</span>
+    </div>
+  </div>
+</section>
+
+<section id="availability">
+  <div class="wrap">
+    <div class="kicker">Availability</div>
+    <h2>When I'm free</h2>
+    <div class="avail">
+      <div class="slot">
+        <div class="when">&#127774; Weekends</div>
+        <div class="how">Best availability for sitting, tutoring sessions, and dog walks</div>
+      </div>
+      <div class="slot">
+        <div class="when">&#127769; Weekday evenings</div>
+        <div class="how">Some openings during the school year, just ask</div>
+      </div>
+      <div class="slot">
+        <div class="when">&#128187; Email &amp; Zoom</div>
+        <div class="how">Check-ins and quick questions between sessions, anytime</div>
+      </div>
+      <div class="slot">
+        <div class="when">&#127958;&#65039; Breaks &amp; summer</div>
+        <div class="how">Much more open, including daytime dog walks</div>
+      </div>
+    </div>
+    <p class="avail-note">Honest note: my Nobles schedule keeps weekdays tight from September on, so weekends are the sure thing. Email and Zoom check-ins work year-round.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="contact-card">
+      <h2>Let's set something up</h2>
+      <p>Booking goes through my mom, Elizabeth (I'm still in high school, and she keeps my calendar honest). Tell us whether it's sitting, tutoring, or a dog walk, plus a few dates that could work.</p>
+      <a class="btn btn-primary" href="mailto:enorman@gmail.com?subject=Booking%20Gwyn">&#9993;&#65039; Email to book</a>
+      <p class="fine">References available on request &middot; Found this through the Charlestown Mothers Association? Say hi!</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <svg class="skyline" viewBox="0 0 800 80" preserveAspectRatio="none" aria-hidden="true">
+    <path fill="#1D3050" d="M0,80 L0,54 L24,54 L24,46 L38,34 L52,46 L52,54 L78,54 L78,60 L106,60 L106,42 L120,30 L134,42 L134,60 L164,60 L164,50 L196,50 L196,58 L226,58 L226,44 L240,33 L254,44 L254,58 L286,58 L286,52 L318,52 L318,60 L352,60 L352,50 L368,50 L368,46 L381,46 L389,6 L397,46 L410,46 L410,50 L428,50 L428,58 L458,58 L458,44 L472,32 L486,44 L486,58 L514,58 L514,52 L546,52 L546,60 L576,60 L576,46 L590,34 L604,46 L604,60 L636,60 L636,52 L668,52 L668,58 L700,58 L700,44 L714,32 L728,44 L728,58 L760,58 L760,54 L800,54 L800,80 Z"/>
+  </svg>
+  <div class="foot-text">Made in Charlestown &#10084;&#65039; &middot; Babysitting &middot; Tutoring &middot; Dog Walking &middot; <a href="mailto:enorman@gmail.com?subject=Booking%20Gwyn">enorman@gmail.com</a></div>
+</footer>
+
+</body>
+</html>
